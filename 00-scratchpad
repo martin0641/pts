@@ -1,0 +1,7 @@
+wget https://github.com/phoronix-test-suite/phoronix-test-suite/releases/download/v10.6.1/phoronix-test-suite-10.6.1.tar.gz
+gunzip phoronix-test-suite-10.6.1.tar.gz
+tar -xvf phoronix-test-suite-10.6.1.tar
+cd phoronix-test-suite
+/bin/bash install-sh
+phoronix-test-suite phoromatic.connect 52.53.234.213:8201/LS7E0N
+
