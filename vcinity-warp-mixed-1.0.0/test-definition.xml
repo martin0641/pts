@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.6.1-->
+<PhoronixTestSuite>
+  <TestInformation>
+    <Title>Vcinity-Warp-Mixed</Title>
+    <AppVersion>1</AppVersion>
+    <Description>Vcinity-Warp-Mixed</Description>
+    <ResultScale>S3-IO</ResultScale>
+    <Proportion>HIB</Proportion>
+    <ResultQuantifier>AVG</ResultQuantifier>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <SubTitle>S3-IO</SubTitle>
+    <Executable>warp</Executable>
+    <TimesToRun>1</TimesToRun>
+  </TestInformation>
+  <TestProfile>
+    <Version>1.0.0</Version>
+    <SupportedPlatforms>Linux</SupportedPlatforms>
+    <SoftwareType>Benchmark</SoftwareType>
+    <TestType>Other</TestType>
+    <License>Free</License>
+    <Status>Verified</Status>
+    <SupportedArchitectures>x86_64</SupportedArchitectures>
+    <RequiresRoot>FALSE</RequiresRoot>
+    <RequiresRootInstall>FALSE</RequiresRootInstall>
+    <RequiresDisplay>FALSE</RequiresDisplay>
+    <RequiresNetwork>FALSE</RequiresNetwork>
+    <InstallRequiresInternet>FALSE</InstallRequiresInternet>
+    <RequiresInternet>FALSE</RequiresInternet>
+    <RepositoryURL>https://github.com/minio/warp/</RepositoryURL>
+    <Maintainer>klauspost</Maintainer>
+    <AllowResultsSharing>FALSE</AllowResultsSharing>
+    <AutoSaveResults>FALSE</AutoSaveResults>
+    <RemoveInstallDirectoryOnReinstall>TRUE</RemoveInstallDirectoryOnReinstall>
+  </TestProfile>
+  <TestSettings>
+    <Default>
+      <Arguments>--insecure --access-key=root --secret-key=MDxControl! --host=172.26.10.180</Arguments>
+      <AllowCacheShare>FALSE</AllowCacheShare>
+    </Default>
+    <Option>
+      <DisplayName>vcinity-warp-mixed</DisplayName>
+    </Option>
+  </TestSettings>
+</PhoronixTestSuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v10.6.1-->
+<PhoronixTestSuite>
+  <Downloads>
+    <Package>
+      <URL>https://github.com/minio/warp/releases/download/v0.5.2/warp_0.5.2_Linux_x86_64.tar.gz</URL>
+      <MD5>5d4337527b49a1a0044d13a0c0da0395</MD5>
+      <SHA256>3edcc8034931e1af2ae6540cb0a1734cf1ea21bd767fabb8a792b89745f01bbe</SHA256>
+      <FileName>warp_0.5.2_Linux_x86_64.tar.gz</FileName>
+      <FileSize>4323305</FileSize>
+      <PlatformSpecific>Linux</PlatformSpecific>
+      <ArchitectureSpecific>x86_64</ArchitectureSpecific>
+      <Optional>TRUE</Optional>
+    </Package>
+  </Downloads>
+</PhoronixTestSuite>
