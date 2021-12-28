@@ -6,7 +6,7 @@ mkdir /gpfs/cache/pts/sequential-medium/
 mkdir /gpfs/data/pts/
 mkdir /gpfs/data/pts/sequential-medium/
 
-time dd if=/dev/urandom of=/gpfs/cache/pts/sequential-intermediate.file bs=1M count=1024 > /gpfs/cache/pts/sequential-medium/sequential-medium-results.txt
+time dd if=/dev/urandom of=/gpfs/cache/pts/sequential-medium/sequential-intermediate.file bs=1M count=1024 > /gpfs/cache/pts/sequential-medium/sequential-medium-results.txt
 
 for i in 1 2 3 4 5
 do
