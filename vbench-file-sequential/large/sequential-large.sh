@@ -14,7 +14,6 @@ do
 done
 
 sha1sum /gpfs/cache/pts/sequential-large/sequential-large.file >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt > /gpfs/cache/pts/sequential-large/sequential-large.file.sha1
-#time cp --force --verbose /gpfs/data/pts/sequential-large/sequential-large.file /gpfs/data/pts/sequential-large/sequential-large.file >> /gpfs/data/pts/sequential-large/sequential-large-results.txt
 rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file /gpfs/data/pts/sequential-large/sequential-large.file1 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-large.file1 /gpfs/cache/pts/sequential-large/sequential-large.file2 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file2 /gpfs/data/pts/sequential-large/sequential-large.file3 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
@@ -30,3 +29,4 @@ echo "CMP says:" >> /gpfs/cache/pts/sequential-large/sequential-large-results.tx
 cmp -b /gpfs/cache/pts/sequential-large/sequential-large.file /gpfs/cache/pts/sequential-large/sequential-large.file.sanity >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 echo "If it's blank, no news is good news" >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 cat /gpfs/cache/pts/sequential-large/sequential-large-results.txt
+echo "200GB Transfer Test Complete" 
