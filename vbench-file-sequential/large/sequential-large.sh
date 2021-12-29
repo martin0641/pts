@@ -7,7 +7,7 @@ mkdir /gpfs/cache/pts/sequential-large/
 mkdir /gpfs/data/pts/
 mkdir /gpfs/data/pts/sequential-large/
 
-time dd if=/dev/urandom of=/gpfs/cache/pts/sequential-large/sequential-intermediate.file bs=1K count=1024 > /gpfs/cache/pts/sequential-large/sequential-large-results.txt
+time dd if=/dev/urandom of=/gpfs/cache/pts/sequential-large/sequential-intermediate.file bs=1M count=1024 > /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 
 for i in 1 2 3 4 5 6 7 8 9 10
 do
