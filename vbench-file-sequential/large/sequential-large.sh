@@ -49,4 +49,4 @@ cmp -b /gpfs/cache/pts/sequential-large/sequential-large.file /gpfs/cache/pts/se
 echo "If it's blank, no news is good news" >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 
 cat /gpfs/cache/pts/sequential-large/sequential-large-results.txt
-echo "200GB Transfer Test Complete" 
+echo "100GB Transfer Test Complete" 
