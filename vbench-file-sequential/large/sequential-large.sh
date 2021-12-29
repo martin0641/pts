@@ -23,22 +23,22 @@ rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-lar
 rm -f /gpfs/data/pts/sequential-large/sequential-large.file1
 echo "Round-01 Complete"
 rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file2 /gpfs/data/pts/sequential-large/sequential-large.file3 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
-rm -f /gpfs/data/pts/sequential-large/sequential-large.file2
+rm -f /gpfs/cache/pts/sequential-large/sequential-large.file2
 rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-large.file3 /gpfs/cache/pts/sequential-large/sequential-large.file4 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 rm -f /gpfs/data/pts/sequential-large/sequential-large.file3
 echo "Round-02 Complete"
 rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file4 /gpfs/data/pts/sequential-large/sequential-large.file5 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
-rm -f /gpfs/data/pts/sequential-large/sequential-large.file4
+rm -f /gpfs/cache/pts/sequential-large/sequential-large.file4
 rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-large.file5 /gpfs/cache/pts/sequential-large/sequential-large.file6 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 rm -f /gpfs/data/pts/sequential-large/sequential-large.file5
 echo "Round-03 Complete"
 rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file6 /gpfs/data/pts/sequential-large/sequential-large.file7 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
-rm -f /gpfs/data/pts/sequential-large/sequential-large.file6
+rm -f /gpfs/cache/pts/sequential-large/sequential-large.file6
 rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-large.file7 /gpfs/cache/pts/sequential-large/sequential-large.file8 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 rm -f /gpfs/data/pts/sequential-large/sequential-large.file7
 echo "Round-04 Complete"
 rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file8 /gpfs/data/pts/sequential-large/sequential-large.file9 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
-rm -f /gpfs/data/pts/sequential-large/sequential-large.file8
+rm -f /gpfs/cache/pts/sequential-large/sequential-large.file8
 rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-large.file9 /gpfs/cache/pts/sequential-large/sequential-large.file.sanity >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 echo "Round-05 Complete"
 
