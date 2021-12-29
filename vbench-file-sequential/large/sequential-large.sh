@@ -17,7 +17,7 @@ done
 rm -f /gpfs/cache/pts/sequential-large/sequential-intermediate.file
 
 sha1sum /gpfs/cache/pts/sequential-large/sequential-large.file >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt > /gpfs/cache/pts/sequential-large/sequential-large.file.sha1
-rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file /gpfs/data/pts/sequential-large/sequential-large.file0 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
+rsync -a --info=progress2 --stats /gpfs/cache/pts/sequential-large/sequential-large.file /gpfs/data/pts/sequential-large/sequential-large.file1 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 
 rsync -a --info=progress2 --stats /gpfs/data/pts/sequential-large/sequential-large.file1 /gpfs/cache/pts/sequential-large/sequential-large.file2 >> /gpfs/cache/pts/sequential-large/sequential-large-results.txt
 rm -f /gpfs/data/pts/sequential-large/sequential-large.file1
